@@ -77,6 +77,7 @@
     <Content Include="Register.aspx" />
     <Content Include="S1.aspx" />
     <Content Include="S2.aspx" />
+    <Content Include="SelectedIndexChangedExample.aspx" />
     <Content Include="SessionExample1.aspx" />
     <Content Include="ViewStateExample.aspx" />
     <Content Include="Web.config" />
@@ -152,6 +153,13 @@
     </Compile>
     <Compile Include="S2.aspx.designer.cs">
       <DependentUpon>S2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedIndexChangedExample.aspx.cs">
+      <DependentUpon>SelectedIndexChangedExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectedIndexChangedExample.aspx.designer.cs">
+      <DependentUpon>SelectedIndexChangedExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="SessionExample1.aspx.cs">
       <DependentUpon>SessionExample1.aspx</DependentUpon>

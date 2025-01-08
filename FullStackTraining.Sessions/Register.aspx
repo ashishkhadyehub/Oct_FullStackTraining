@@ -31,13 +31,13 @@
                 <label>City:</label>
                 <asp:DropDownList CssClass="form-control" runat="server" ID="ddlCity">
                     <asp:ListItem Value="Select">Select City</asp:ListItem>
-                    <asp:ListItem Value="5">Mumbai</asp:ListItem>
+                    <asp:ListItem >Mumbai</asp:ListItem>
                     <asp:ListItem>Delhi</asp:ListItem>
                     <asp:ListItem>Kolhapur</asp:ListItem>
                 </asp:DropDownList>
               
             </div>
-            <asp:Button runat="server" Text="Register" OnClientClick="return validform()"  CssClass="btn btn-primary" ID="btnSubmit" />
+            <asp:Button runat="server" Text="Register" OnClick="btnSubmit_Click" OnClientClick="return validform()"  CssClass="btn btn-primary" ID="btnSubmit" />
 
           
             
