@@ -11,7 +11,7 @@ namespace FullStackTraining.Sessions
 {
 
 
-    public partial class Register
+    public partial class ShowDataFromDB
     {
 
         /// <summary>
@@ -42,30 +42,21 @@ namespace FullStackTraining.Sessions
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
 
         /// <summary>
-        /// ddlCity control.
+        /// txtCity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlCity;
+        protected global::System.Web.UI.WebControls.TextBox txtCity;
 
         /// <summary>
-        /// fuPhoto control.
+        /// imgProfilePhoto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload fuPhoto;
-
-        /// <summary>
-        /// btnSubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
+        protected global::System.Web.UI.WebControls.Image imgProfilePhoto;
     }
 }

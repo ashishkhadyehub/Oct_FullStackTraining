@@ -79,6 +79,7 @@
     <Content Include="S2.aspx" />
     <Content Include="SelectedIndexChangedExample.aspx" />
     <Content Include="SessionExample1.aspx" />
+    <Content Include="ShowDataFromDB.aspx" />
     <Content Include="ViewStateExample.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -168,6 +169,13 @@
     <Compile Include="SessionExample1.aspx.designer.cs">
       <DependentUpon>SessionExample1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ShowDataFromDB.aspx.cs">
+      <DependentUpon>ShowDataFromDB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowDataFromDB.aspx.designer.cs">
+      <DependentUpon>ShowDataFromDB.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -192,6 +200,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProfilePhotos\" />
+    <Folder Include="ThumbPhotos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

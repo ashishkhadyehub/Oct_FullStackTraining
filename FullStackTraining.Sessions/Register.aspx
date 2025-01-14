@@ -37,6 +37,12 @@
                 </asp:DropDownList>
               
             </div>
+
+                 <div class="mb-3 mt-3">
+    <label>Profile Photo:</label>
+    <asp:FileUpload runat="server" AllowMultiple="true" ID="fuPhoto" CssClass="form-control" />
+  
+</div>
             <asp:Button runat="server" Text="Register" OnClick="btnSubmit_Click" OnClientClick="return validform()"  CssClass="btn btn-primary" ID="btnSubmit" />
 
           
