@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="CookiesExample1.aspx" />
     <Content Include="CookiesExample2.aspx" />
+    <Content Include="GVExample.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
     <Content Include="OnTextChangedExample.aspx" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="CookiesExample2.aspx.designer.cs">
       <DependentUpon>CookiesExample2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GVExample.aspx.cs">
+      <DependentUpon>GVExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GVExample.aspx.designer.cs">
+      <DependentUpon>GVExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

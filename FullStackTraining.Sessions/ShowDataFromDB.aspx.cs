@@ -31,6 +31,7 @@ namespace FullStackTraining.Sessions
                 txtEmail.Text = sdr.GetValue(3).ToString();
                 txtCity.Text = sdr.GetValue(4).ToString();
                 imgProfilePhoto.ImageUrl = sdr.GetValue(6).ToString();
+                thumbImg.ImageUrl = sdr.GetValue(7).ToString();
             }
         }
     }

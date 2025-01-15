@@ -11,7 +11,7 @@ namespace FullStackTraining.Sessions
 {
 
 
-    public partial class ShowDataFromDB
+    public partial class GVExample
     {
 
         /// <summary>
@@ -24,24 +24,6 @@ namespace FullStackTraining.Sessions
         protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// txtContact control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtContact;
-
-        /// <summary>
-        /// txtEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
-
-        /// <summary>
         /// txtCity control.
         /// </summary>
         /// <remarks>
@@ -51,21 +33,21 @@ namespace FullStackTraining.Sessions
         protected global::System.Web.UI.WebControls.TextBox txtCity;
 
         /// <summary>
-        /// imgProfilePhoto control.
+        /// btnSubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imgProfilePhoto;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
-        /// thumbImg control.
+        /// gvdata control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image thumbImg;
+        protected global::System.Web.UI.WebControls.GridView gvdata;
     }
 }

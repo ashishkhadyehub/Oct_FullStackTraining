@@ -31,6 +31,8 @@
                  <div class="mb-3 mt-3">
     <label>Profile Photo:</label>
     <asp:Image runat="server" Height="300px" ID="imgProfilePhoto" />
+                     <hr />
+    <asp:Image runat="server" ID="thumbImg" />
   
 </div>
            
