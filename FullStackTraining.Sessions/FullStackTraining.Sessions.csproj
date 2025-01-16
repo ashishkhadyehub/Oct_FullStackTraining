@@ -69,9 +69,11 @@
   <ItemGroup>
     <Content Include="CookiesExample1.aspx" />
     <Content Include="CookiesExample2.aspx" />
+    <Content Include="fluid-gallery.css" />
     <Content Include="GVExample.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
+    <Content Include="LiteralExample.aspx" />
     <Content Include="OnTextChangedExample.aspx" />
     <Content Include="QueryString1.aspx" />
     <Content Include="QueryString2.aspx" />
@@ -119,6 +121,13 @@
     </Compile>
     <Compile Include="IPExample.aspx.designer.cs">
       <DependentUpon>IPExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LiteralExample.aspx.cs">
+      <DependentUpon>LiteralExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LiteralExample.aspx.designer.cs">
+      <DependentUpon>LiteralExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="OnTextChangedExample.aspx.cs">
       <DependentUpon>OnTextChangedExample.aspx</DependentUpon>
