@@ -84,6 +84,8 @@
     <Content Include="SelectedIndexChangedExample.aspx" />
     <Content Include="SessionExample1.aspx" />
     <Content Include="ShowDataFromDB.aspx" />
+    <Content Include="Test.aspx" />
+    <Content Include="ValidatorsExample.aspx" />
     <Content Include="ViewStateExample.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -201,12 +203,26 @@
     <Compile Include="ShowDataFromDB.aspx.designer.cs">
       <DependentUpon>ShowDataFromDB.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User.Master.cs">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User.Master.designer.cs">
       <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ValidatorsExample.aspx.cs">
+      <DependentUpon>ValidatorsExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidatorsExample.aspx.designer.cs">
+      <DependentUpon>ValidatorsExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewStateExample.aspx.cs">
       <DependentUpon>ViewStateExample.aspx</DependentUpon>
