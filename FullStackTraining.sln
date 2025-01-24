@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStackTraining.Sessions", "FullStackTraining.Sessions\FullStackTraining.Sessions.csproj", "{7B9E81A6-CA4F-461A-8C09-5BB5566C6AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpPortal", "EmpPortal\EmpPortal.csproj", "{6FDE9A99-F1C0-4848-B5AD-1D8173AC5EA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7B9E81A6-CA4F-461A-8C09-5BB5566C6AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9E81A6-CA4F-461A-8C09-5BB5566C6AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9E81A6-CA4F-461A-8C09-5BB5566C6AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDE9A99-F1C0-4848-B5AD-1D8173AC5EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDE9A99-F1C0-4848-B5AD-1D8173AC5EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDE9A99-F1C0-4848-B5AD-1D8173AC5EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDE9A99-F1C0-4848-B5AD-1D8173AC5EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
