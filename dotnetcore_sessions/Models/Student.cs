@@ -15,5 +15,6 @@ namespace dotnetcore_sessions.Models
      
         public string? Name { get; set; }
         public string? City { get; set; }
+
     }
 }
