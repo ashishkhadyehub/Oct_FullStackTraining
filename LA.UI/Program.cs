@@ -1,4 +1,6 @@
 using LA.Repositories;
+using LA.Repositories.Implementations;
+using LA.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.
 UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("LA.UI")));
+
+builder.Services.AddScoped<ICountryRepo, CountryRepo>();
 
 var app = builder.Build();
 
@@ -28,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Country}/{action=Index}/{id?}");
 
 app.Run();
