@@ -13,6 +13,7 @@ UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), b =
 
 builder.Services.AddScoped<ICountryRepo, CountryRepo>();
 builder.Services.AddScoped<IStateRepo, StateRepo>();
+builder.Services.AddScoped<IDistrictRepo, DistrictRepo>();
 
 var app = builder.Build();
 
