@@ -180,5 +180,29 @@ namespace EMS.UI.Controllers
             await _departmentRepo.RemoveData(dept);
             return RedirectToAction("DeptList");
         }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(AdminLoginViewModel vm)
+        {
+            if (vm.UserName == "admin" && vm.Password == "admin")
+            {
+                HttpContext.Session.SetString("Admin", "True");
+                return RedirectToAction("BranchList");
+            }
+            else
+            {
+                ViewData["Message"] = "Invalid Login";
+                return View();
+            }
+
+        }
+
+
     }
 }

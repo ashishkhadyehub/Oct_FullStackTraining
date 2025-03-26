@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EMS.Entities\EMS.Entities.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="6.0.0-preview.4.21253.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EMS.Entities\EMS.Entities.csproj" />
+  </ItemGroup>
+	<!--for utilityrepo-->
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+	</ItemGroup>
 </Project>
