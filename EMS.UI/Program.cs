@@ -22,6 +22,9 @@ builder.Services.AddSession(options =>
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenericRepo<>));
+builder.Services.AddScoped<IEmployeeRepo, EmployeeRepo>();
+builder.Services.AddScoped<IUtilityRepo, UtilityRepo>();
+builder.Services.AddScoped<IAdminRepo, AdminRepo>();
 
 var app = builder.Build();
 

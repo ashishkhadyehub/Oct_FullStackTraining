@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using EMS.Repositories.Interfaces;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EMS.Repositories.Implementations
 {
-    public class UtilityRepo
+    public class UtilityRepo:IUtilityRepo
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IHttpContextAccessor _contextAccessor;
